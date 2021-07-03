@@ -1,0 +1,3 @@
+
+
+exports.KEY_JWT = 'LLAVE_JWT_ACCESS';

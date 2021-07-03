@@ -1,0 +1,26 @@
+{
+  "name": "consultorio_clinico",
+  "version": "1.0.0",
+  "description": "Proyecto para agendamiento de citas y aplicación de citas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sebastian/William",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.8.7",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.2.5",
+    "pg": "^8.0.2",
+    "pg-hstore": "^2.3.3",
+    "save": "^2.4.0",
+    "sequelize": "^5.21.6",
+    "validator": "^13.0.0"
+  }
+}
