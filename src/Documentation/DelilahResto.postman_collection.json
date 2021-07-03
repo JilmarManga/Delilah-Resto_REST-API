@@ -15,7 +15,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"username\": \"JilmarManga\",\r\n  \"Jilmar\": \"Jilmar\",\r\n  \"surname\": \"Doe\",\r\n  \"email\": \"jilmar@gmail.com\",\r\n  \"phone_number\": 3456768,\r\n  \"address\": \"crr 13 123\",\r\n  \"password\": \"wRuxTum0c6wUStLR3p\",\r\n  \"is_admin\": false\r\n}",
+							"raw": "{\r\n  \"username\": \"JilmarManga\",\r\n  \"Jilmar\": \"Jilmar\",\r\n  \"surname\": \"Doe\",\r\n  \"email\": \"jilmar@gmail.com\",\r\n  \"mobile\": 3456768,\r\n  \"address\": \"crr 13 123\",\r\n  \"password\": \"wRuxTum0c6wUStLR3p\",\r\n  \"is_admin\": false\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -117,7 +117,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"Pizza Muzzarella\",\r\n    \"price\": 600,\r\n    \"img_url\": \"https://mahatmarice.com/wp-content/uploads/2020/04/Rice-Pizza-Crust.jpg\"\r\n}",
+							"raw": "{\r\n    \"name\": \"Pizza Muzzarella\",\r\n    \"price\": 600,\r\n    \"picture\": \"https://mahatmarice.com/wp-content/uploads/2020/04/Rice-Pizza-Crust.jpg\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -211,7 +211,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"Pizza Pepperoni\",\r\n    \"price\": 600,\r\n    \"img_url\": \"https://mahatmarice.com/wp-content/uploads/2020/04/Rice-Pizza-Crust.jpg\"\r\n}\r\n",
+							"raw": "{\r\n    \"name\": \"Pizza Pepperoni\",\r\n    \"price\": 600,\r\n    \"picture\": \"https://mahatmarice.com/wp-content/uploads/2020/04/Rice-Pizza-Crust.jpg\"\r\n}\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -250,7 +250,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n        \"id_pay_method\": 1,\r\n        \"products\":[\r\n            {\r\n            \"id_product\": 10,\r\n            \"quantity\": 3\r\n        }\r\n        ] \r\n\r\n}\r\n",
+							"raw": "{\r\n        \"id\": 1,\r\n        \"products\":[\r\n            {\r\n            \"id\": 10,\r\n            \"quantity\": 3\r\n        }\r\n        ] \r\n\r\n}\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -346,7 +346,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n        \"id_status\": 3\r\n}",
+							"raw": "{\r\n        \"status\": 3\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"

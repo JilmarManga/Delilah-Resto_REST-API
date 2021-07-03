@@ -66,7 +66,7 @@ paths:
         explode: false
         schema:
           type: string
-      - name: id_user
+      - name: id
         in: path
         required: true
         style: simple
@@ -154,7 +154,7 @@ paths:
       - Products
       summary: List a single product
       parameters:
-      - name: id_product
+      - name: id
         in: path
         required: true
         style: simple
@@ -183,7 +183,7 @@ paths:
         explode: false
         schema:
           type: string
-      - name: id_product
+      - name: id
         in: path
         required: true
         style: simple
@@ -216,7 +216,7 @@ paths:
         explode: false
         schema:
           type: string
-      - name: id_product
+      - name: id
         in: path
         required: true
         style: simple
@@ -278,7 +278,7 @@ paths:
         explode: false
         schema:
           type: string
-      - name: id_order
+      - name: id
         in: path
         required: true
         style: simple
@@ -307,7 +307,7 @@ paths:
         explode: false
         schema:
           type: string
-      - name: id_order
+      - name: id
         in: path
         required: true
         style: simple
@@ -340,7 +340,7 @@ paths:
         explode: false
         schema:
           type: string
-      - name: id_order
+      - name: id
         in: path
         required: true
         style: simple
@@ -381,7 +381,7 @@ paths:
         explode: false
         schema:
           type: string
-      - name: id_order
+      - name: id
         in: path
         required: true
         style: simple
@@ -410,22 +410,22 @@ components:
       properties:
         username:
           type: string
-          example: John123
+          example: JilmarManga
         name:
           type: string
-          example: John
+          example: Jilmar
         lastName:
           type: string
           example: Doe
         email:
           type: string
-          example: johndoe@gmail.com
+          example: jilmar@gmail.com
         phoneNumber:
           type: integer
-          example: 1160001234
+          example: 3456768
         address:
           type: string
-          example: Fake Street 123
+          example: crr 13 123
         password:
           type: string
           example: wRuxTum0c6wUStLR3p
@@ -451,22 +451,22 @@ components:
           example: 12
         username:
           type: string
-          example: John123
+          example: JilmarManga
         name:
           type: string
-          example: John
+          example: Jilmar
         lastName:
           type: string
           example: Doe
         email:
           type: string
-          example: johndoe@gmail.com
+          example: jilmar@gmail.com
         phoneNumber:
           type: integer
-          example: 1160001234
+          example: 3456768
         address:
           type: string
-          example: Fake Street 123
+          example: crr 13 123
         password:
           type: string
           example: wRuxTum0c6wUStLR3p
@@ -482,22 +482,22 @@ components:
           example: 12
         username:
           type: string
-          example: John123
+          example: JilmarManga
         name:
           type: string
-          example: John
+          example: Jilmar
         lastName:
           type: string
           example: Doe
         email:
           type: string
-          example: johndoe@gmail.com
+          example: jilmar@gmail.com
         phoneNumber:
           type: integer
-          example: 1160001234
+          example: 3456768
         address:
           type: string
-          example: Fake Street 123
+          example: crr 13 123
         password:
           type: string
           example: wRuxTumcwUStLRp
@@ -510,7 +510,7 @@ components:
       properties:
         username:
           type: string
-          example: John123
+          example: JilmarManga
         password:
           type: string
           example: wRuxTumcwUStLRp
